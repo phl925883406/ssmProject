@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="myo2o:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/redisTest/redisSerTest.java" line="37" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a093f229-7a93-476a-8d5a-42a6650dbad3" name="Default Changelist" comment="上传ssm项目">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/webapps/myo2o/logs/access/access.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/webapps/myo2o/logs/info/info.2019-09-23.0.log.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/webapps/myo2o/logs/info/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/config/RedisCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/gemapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/gemapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/gemapper/RolePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/gemapper/TRedPacketMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/gemapper/TUserRedPacketMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/gemapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/gemapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/RedPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/UserRedPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/PermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/RoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/RolePermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/TRedPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/TRedPacketExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/TUserRedPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/TUserRedPacketExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/UserRoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/exception/DefaultExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/extdao/RedPacketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/extdao/UserRedPacketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/filter/URLPathMatchingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/realm/DatabaseRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/ActiveMQUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/queue/TestConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/queue/TestProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/spring/MyMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/spring/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/spring/TestConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/spring/TestProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/topic/TestConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/topic/TestProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/ExcelExportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/RolePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/impl/RolePermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/dataStructure/array/array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/hutool/UrlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/redisTest/redisSerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/redisTest/redisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/shiro/ShiroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/springUtilsTest/springUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/token/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/MybatisGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/OverIsMergeablePlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/execl/ExcelView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/interceptor/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/jwt/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/redis/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/redis/redisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/result/DefaultErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/result/IErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/result/IResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/ExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/ShrioRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/redis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-jms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/deleteOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/deleteProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/editPermission.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/editRole.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/editUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listPermission.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listRole.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/unauthorized.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/config/RedisCacheConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/config/RedisCacheConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dao/gemapper/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dao/gemapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dao/gemapper/RolePermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dao/gemapper/TRedPacketMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dao/gemapper/TUserRedPacketMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dao/gemapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dao/gemapper/UserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dto/RedPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dto/RoleDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/dto/UserRedPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/PermissionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/PermissionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/PermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/PermissionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/RoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/RoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/RoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/RoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/RolePermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/RolePermissionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/RolePermissionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/RolePermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/RolePermissionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/TRedPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/TRedPacketExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/TRedPacketExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/TRedPacketExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/TRedPacketExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/TUserRedPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/TUserRedPacketExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/TUserRedPacketExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/TUserRedPacketExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/TUserRedPacketExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/UserRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/UserRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/UserRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/entity/UserRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/exception/DefaultExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/extdao/RedPacketDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/extdao/UserRedPacketDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/filter/URLPathMatchingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/realm/DatabaseRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/ActiveMQUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/queue/TestConsumer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/queue/TestConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/queue/TestProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/spring/MyMessageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/spring/Producer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/spring/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/spring/TestConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/spring/TestProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/topic/TestConsumer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/topic/TestConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/sample/activemq/topic/TestProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/ExcelExportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/PermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/RolePermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/UserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/impl/RolePermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/impl/UserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/test/dataStructure/array/array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/test/hutool/UrlTest$Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/test/hutool/UrlTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/test/redisTest/redisSerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/test/redisTest/redisTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/test/redisTest/redisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/test/shiro/ShiroTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/test/springUtilsTest/springUtilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/test/token/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/util/execl/ExcelView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/util/interceptor/JwtInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/util/jwt/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/util/redis/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/util/redis/redisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/util/result/DefaultErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/util/result/IErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/util/result/IResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/util/result/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/web/controller/ExcelController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/web/controller/RedisController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/web/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/web/controller/ShrioRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/imooc/myo2o/web/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/RolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/redis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-jms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/applicationContext-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/config/RedisCacheConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/config/RedisCacheConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dao/gemapper/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dao/gemapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dao/gemapper/RolePermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dao/gemapper/TRedPacketMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dao/gemapper/TUserRedPacketMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dao/gemapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dao/gemapper/UserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dto/RedPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dto/RoleDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/dto/UserRedPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/PermissionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/PermissionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/PermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/PermissionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/RoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/RoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/RoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/RoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/RolePermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/RolePermissionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/RolePermissionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/RolePermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/RolePermissionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/TRedPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/TRedPacketExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/TRedPacketExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/TRedPacketExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/TRedPacketExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/TUserRedPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/TUserRedPacketExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/TUserRedPacketExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/TUserRedPacketExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/TUserRedPacketExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/UserRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/UserRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/UserRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/entity/UserRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/exception/DefaultExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/extdao/RedPacketDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/extdao/UserRedPacketDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/filter/URLPathMatchingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/realm/DatabaseRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/ActiveMQUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/queue/TestConsumer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/queue/TestConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/queue/TestProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/spring/MyMessageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/spring/Producer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/spring/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/spring/TestConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/spring/TestProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/topic/TestConsumer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/topic/TestConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/sample/activemq/topic/TestProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/ExcelExportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/PermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/RolePermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/UserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/impl/RolePermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/impl/UserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/test/dataStructure/array/array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/test/hutool/UrlTest$Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/test/hutool/UrlTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/test/redisTest/redisSerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/test/redisTest/redisTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/test/redisTest/redisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/test/shiro/ShiroTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/test/springUtilsTest/springUtilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/test/token/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/util/execl/ExcelView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/util/interceptor/JwtInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/util/jwt/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/util/redis/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/util/redis/redisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/util/result/DefaultErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/util/result/IErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/util/result/IResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/util/result/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/web/controller/ExcelController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/web/controller/RedisController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/web/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/web/controller/ShrioRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/com/imooc/myo2o/web/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/mapper/RolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/mybatis-generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/redis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/spring-jms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/classes/spring/spring-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/deleteOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/deleteProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/editPermission.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/editRole.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/editUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/include/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/listPermission.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/listProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/listRole.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/listUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/jsp/unauthorized.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/activemq-all-5.15.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/aspectjrt-1.8.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/avalon-framework-4.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/c3p0-0.9.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/commons-beanutils-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/commons-collections-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/commons-fileupload-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/commons-lang3-3.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/commons-logging-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/core-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/dom4j-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/ehcache-core-2.6.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/filters-2.0.235-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/guice-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/guice-multibindings-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/hazelcast-3.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/hutool-all-4.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/jackson-annotations-2.9.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/jackson-core-2.9.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/jackson-databind-2.9.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/jai-imageio-core-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/javase-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/jaxen-1.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/jcommander-1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/jjwt-0.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/log4j-1.2.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/logback-classic-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/logback-core-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/logkit-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/mybatis-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/poi-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/protostuff-api-1.0.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/protostuff-collectionschema-1.0.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/protostuff-core-1.0.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/protostuff-runtime-1.0.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/quartz-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/servlet-api-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-all-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-aspectj-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-cache-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-config-core-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-config-ogdl-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-core-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-crypto-cipher-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-crypto-core-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-crypto-hash-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-ehcache-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-event-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-guice-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-hazelcast-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-lang-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-quartz-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-spring-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/shiro-web-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/slf4j-api-1.7.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-aop-4.3.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-context-support-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-data-commons-1.12.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-data-keyvalue-1.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-data-redis-1.7.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-jms-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-messaging-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-oxm-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-test-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/thumbnailator-0.4.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/xmlpull-1.1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/xpp3_min-1.1.4c.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/lib/xstream-1.4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myo2o/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/good.txt" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readMe.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/redis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="82" column="56" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-jms.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dependencyManagement</find>
+      <find>threshold</find>
+      <find>org.springframework.data</find>
+      <find>spring</find>
+      <find>red</find>
+      <find>poi</find>
+      <find>lomb</find>
+      <find>1.7</find>
+      <find>blockWhenExhausted</find>
+      <find>maxIdle</find>
+      <find>redis.maxIdle</find>
+      <find>context:property-placeho</find>
+      <find>requestURI</find>
+      <find>redis</find>
+      <find>ould not connect to broker</find>
+      <find>cache:annotation-driven</find>
+      <find>jedis</find>
+      <find>spring-data-redis</find>
+      <find>ackson-core</find>
+      <find>jackson-databin</find>
+      <find>jackson-core</find>
+      <find>jackson-annotatio</find>
+      <find>fasterxml</find>
+      <find>MapperScannerConfigurer</find>
+      <find>sessionManager</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/execl/ExcelView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/ExcelExportService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/springUtilsTest/springUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/redis/redisTest.java" />
+        <option value="$PROJECT_DIR$/readMe.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/UserDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/ExcelController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/redisTest/redisSerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/redisTest/redisPipeline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/redisTest/redisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/redis/redisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/redis/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/filter/URLPathMatchingFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/ShiroRoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/RoleControllerNoShiro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/ShiroRedisController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-jms.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/config/RedisCacheConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/RoleDto.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/ShrioRoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-generator-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/RedPacket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/extdao/UserRedPacketDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/extdao/RedPacketDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/RedPacket.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="C:\Users\admin\Desktop\install\work\maven_repo2" />
+        <option name="printErrorStackTraces" value="true" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="userSettingsFile" value="C:\Users\admin\Desktop\install\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="cargopm-nexus" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myo2o Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myo2o Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="693" />
+    <option name="width" value="1322" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectId" id="1REaULOX0LI402oqwR5NL7NeaFq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2o" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557933725116" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.imooc.myo2o.test.token" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\myo2o\src\main\resources\mapper" />
+      <recent name="C:\Users\Administrator\Desktop\myo2o\src\main\resources\mapper\user" />
+      <recent name="C:\Users\admin\Desktop\myo2o\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.myo2o.dto" />
+      <recent name="com.imooc.myo2o.web.controller" />
+      <recent name="com.imooc.myo2o.test.redisTest" />
+      <recent name="com.imooc.myo2o.realm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\myo2o\src\main\resources\mapper" />
+      <recent name="C:\Users\admin\Desktop\myo2o\src\main\java\com\imooc\myo2o" />
+      <recent name="C:\Users\admin\Desktop\myo2o\src\main\java\com\imooc\myo2o\dto" />
+      <recent name="C:\Users\admin\Desktop\myo2o\src\main\java\com\imooc\myo2o\util\jwt" />
+      <recent name="C:\Users\admin\Desktop\myo2o\src\main\java\com\imooc\myo2o\sample\activemq\spring" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.imooc.myo2o.util.result" />
+      <recent name="com.imooc.myo2o.service.impl" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 16 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 16 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="myo2o" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.myo2o">
+    <configuration name="redisSerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.test.redisTest.redisSerTest" />
+      <module name="myo2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.myo2o.test.redisTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="redisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.util.redis.redisTest" />
+      <module name="myo2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.myo2o.util.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="redisTest.pipeline" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myo2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.myo2o.test.redisTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.myo2o.test.redisTest" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.test.redisTest.redisTest" />
+      <option name="METHOD_NAME" value="pipeline" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="redisTest.testPipelineBySpring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myo2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.myo2o.test.redisTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.myo2o.test.redisTest" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.test.redisTest.redisTest" />
+      <option name="METHOD_NAME" value="testPipelineBySpring" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springUtilsTest.trimWhitespace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myo2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.myo2o.test.springUtilsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.myo2o.test.springUtilsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.test.springUtilsTest.springUtilsTest" />
+      <option name="METHOD_NAME" value="trimWhitespace" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name=" gen" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="myo2o" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Xms1024m -Xmx1024m -XX:PermSize=512m -XX:MaxPermSize=1024m" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="myo2o:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/myo2owar" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_myo2o" />
+        <option name="HTTP_PORT" value="8090" />
+        <option name="JNDI_PORT" value="18090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4489" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="myo2o:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.redisTest" />
+      <item itemvalue="Application.redisSerTest" />
+      <item itemvalue="JUnit.springUtilsTest.trimWhitespace" />
+      <item itemvalue="JUnit.redisTest.pipeline" />
+      <item itemvalue="JUnit.redisTest.testPipelineBySpring" />
+      <item itemvalue="Maven. gen" />
+      <item itemvalue="Tomcat Server.myo2o" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.redisTest.testPipelineBySpring" />
+        <item itemvalue="JUnit.redisTest.pipeline" />
+        <item itemvalue="Application.redisSerTest" />
+        <item itemvalue="Application.redisTest" />
+        <item itemvalue="JUnit.springUtilsTest.trimWhitespace" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a093f229-7a93-476a-8d5a-42a6650dbad3" name="Default Changelist" comment="" />
+      <created>1543378159891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543378159891</updated>
+      <workItem from="1543378162387" duration="2654000" />
+      <workItem from="1543380849699" duration="615000" />
+      <workItem from="1544270640739" duration="28000" />
+      <workItem from="1544416507443" duration="628000" />
+      <workItem from="1544426796750" duration="44000" />
+      <workItem from="1544426863439" duration="15000" />
+      <workItem from="1544603818374" duration="12983000" />
+      <workItem from="1544666678766" duration="18647000" />
+      <workItem from="1544694293978" duration="14714000" />
+      <workItem from="1544750426949" duration="4385000" />
+      <workItem from="1545101002742" duration="5728000" />
+      <workItem from="1545203051202" duration="3527000" />
+      <workItem from="1545268950600" duration="2545000" />
+      <workItem from="1545353759932" duration="3731000" />
+      <workItem from="1545463446111" duration="18499000" />
+      <workItem from="1545562302010" duration="3674000" />
+      <workItem from="1545613410557" duration="17452000" />
+      <workItem from="1545699064518" duration="41229000" />
+      <workItem from="1545890581189" duration="5844000" />
+      <workItem from="1545958859564" duration="618000" />
+      <workItem from="1554106428215" duration="22366000" />
+      <workItem from="1554251787737" duration="331000" />
+      <workItem from="1554252297572" duration="4104000" />
+      <workItem from="1554296332453" duration="1318000" />
+      <workItem from="1554452365300" duration="1434000" />
+      <workItem from="1554454692139" duration="2756000" />
+      <workItem from="1554463847956" duration="4408000" />
+      <workItem from="1554604654795" duration="5353000" />
+      <workItem from="1554724272018" duration="3121000" />
+      <workItem from="1554896078778" duration="3746000" />
+      <workItem from="1554945521895" duration="278000" />
+      <workItem from="1555248720078" duration="1007000" />
+      <workItem from="1555290204338" duration="656000" />
+      <workItem from="1555321091638" duration="3330000" />
+      <workItem from="1555375360665" duration="2067000" />
+      <workItem from="1555399738596" duration="7381000" />
+      <workItem from="1555462958639" duration="35000" />
+      <workItem from="1555548073131" duration="1000000" />
+      <workItem from="1555561351418" duration="366000" />
+      <workItem from="1555561971511" duration="8000" />
+      <workItem from="1555593706659" duration="2019000" />
+      <workItem from="1555735178985" duration="714000" />
+      <workItem from="1555761620898" duration="2026000" />
+      <workItem from="1555812457439" duration="13264000" />
+      <workItem from="1555852482840" duration="1397000" />
+      <workItem from="1555894812055" duration="647000" />
+      <workItem from="1555938661473" duration="1760000" />
+      <workItem from="1555998807098" duration="9333000" />
+      <workItem from="1556088546249" duration="5189000" />
+      <workItem from="1556169172886" duration="1410000" />
+      <workItem from="1556349443483" duration="784000" />
+      <workItem from="1556413064544" duration="429000" />
+      <workItem from="1556498960529" duration="768000" />
+      <workItem from="1556504186840" duration="248000" />
+      <workItem from="1556594708364" duration="10357000" />
+      <workItem from="1556936429985" duration="8766000" />
+      <workItem from="1557045631038" duration="3381000" />
+      <workItem from="1557107698359" duration="26000" />
+      <workItem from="1557301639640" duration="602000" />
+      <workItem from="1557838640641" duration="5765000" />
+      <workItem from="1557889591401" duration="7390000" />
+      <workItem from="1557930576173" duration="3181000" />
+      <workItem from="1557966287629" duration="2525000" />
+      <workItem from="1558067622302" duration="1820000" />
+      <workItem from="1569234725959" duration="23000" />
+      <workItem from="1569286872232" duration="6231000" />
+      <workItem from="1569302776642" duration="16088000" />
+      <workItem from="1569373031837" duration="631000" />
+      <workItem from="1569378630730" duration="8941000" />
+      <workItem from="1569399104977" duration="4745000" />
+      <workItem from="1569467961453" duration="4542000" />
+      <workItem from="1569546460122" duration="1030000" />
+      <workItem from="1569550932775" duration="2947000" />
+      <workItem from="1569751878017" duration="161000" />
+      <workItem from="1569805030126" duration="4303000" />
+      <workItem from="1569830748023" duration="1311000" />
+      <workItem from="1569933249306" duration="4388000" />
+      <workItem from="1570013670912" duration="9050000" />
+      <workItem from="1570103703456" duration="7388000" />
+      <workItem from="1570347681228" duration="607000" />
+      <workItem from="1570496320302" duration="648000" />
+      <workItem from="1570582967105" duration="252000" />
+      <workItem from="1570669337071" duration="4037000" />
+      <workItem from="1570755904295" duration="1768000" />
+      <workItem from="1570772932292" duration="4037000" />
+      <workItem from="1570842033677" duration="2693000" />
+      <workItem from="1570868333568" duration="619000" />
+      <workItem from="1571015067320" duration="594000" />
+      <workItem from="1571026533237" duration="208000" />
+      <workItem from="1571033825490" duration="447000" />
+      <workItem from="1571101697652" duration="580000" />
+      <workItem from="1571109069011" duration="483000" />
+      <workItem from="1571274298464" duration="1355000" />
+      <workItem from="1571360537112" duration="321000" />
+      <workItem from="1571479567810" duration="1728000" />
+      <workItem from="1571619712305" duration="240000" />
+      <workItem from="1576654874801" duration="6600000" />
+      <workItem from="1576737347176" duration="8362000" />
+      <workItem from="1576803998970" duration="582000" />
+      <workItem from="1576808892980" duration="1200000" />
+      <workItem from="1577062884267" duration="5161000" />
+      <workItem from="1577097676712" duration="6000" />
+      <workItem from="1577097996019" duration="203000" />
+      <workItem from="1577098275725" duration="876000" />
+      <workItem from="1577149369655" duration="3270000" />
+      <workItem from="1577235899853" duration="586000" />
+      <workItem from="1577322253884" duration="1328000" />
+      <workItem from="1578647412965" duration="5649000" />
+      <workItem from="1578754005750" duration="210000" />
+      <workItem from="1578879736844" duration="10315000" />
+      <workItem from="1578904945113" duration="662000" />
+      <workItem from="1578963949290" duration="21033000" />
+      <workItem from="1579050300342" duration="4708000" />
+      <workItem from="1580200186103" duration="2006000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="redisTest_testPipelineBySpring - 2020.01.14 at 10h 10m 36s.xml">
+      <configuration name="redisTest.testPipelineBySpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="redisTest_testPipelineBySpring - 2020.01.14 at 10h 10m 42s.xml">
+      <configuration name="redisTest.testPipelineBySpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="redisTest_testPipelineBySpring - 2020.01.14 at 10h 10m 56s.xml">
+      <configuration name="redisTest.testPipelineBySpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="redisTest_testPipelineBySpring - 2020.01.14 at 10h 12m 10s.xml">
+      <configuration name="redisTest.testPipelineBySpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="redisTest_testPipelineBySpring - 2020.01.14 at 10h 19m 50s.xml">
+      <configuration name="redisTest.testPipelineBySpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="redisTest_testPipelineBySpring - 2020.01.14 at 10h 20m 45s.xml">
+      <configuration name="redisTest.testPipelineBySpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="redisTest_testPipelineBySpring - 2020.01.14 at 10h 25m 24s.xml">
+      <configuration name="redisTest.testPipelineBySpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="redisTest_testPipelineBySpring - 2020.01.14 at 10h 26m 03s.xml">
+      <configuration name="redisTest.testPipelineBySpring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="redisTest_pipeline - 2020.01.14 at 14h 07m 55s.xml">
+      <configuration name="redisTest.pipeline" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="redisTest_testPipelineBySpring - 2020.01.14 at 14h 08m 14s.xml">
+      <configuration name="redisTest.testPipelineBySpring" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="72757000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="628" y="0" width="1322" height="1100" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37876385" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34254608" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2704565" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.22399151" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.14840426" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3298887" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26549146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42894056" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31869078" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.19026549" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.14903846" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3298887" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="上传ssm项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传ssm项目" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/springframework/util/StringUtils.class</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/AbstractStringBuilder.java</url>
+          <line>822</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="sb.charAt(0)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/apache/activemq/util/JMSExceptionSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/topic/TestConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/spring/TestConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/spring/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/spring/MyMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/sample/activemq/ActiveMQUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/springframework/cache/annotation/Cacheable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="99" column="2" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/gemapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.7.2.RELEASE/spring-data-redis-1.7.2.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar!/org/springframework/cache/config/spring-cache-4.3.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/config/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/ShrioRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="67" column="35" lean-forward="true" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/springframework/cache/annotation/CachePut.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.7.2.RELEASE/spring-data-redis-1.7.2.RELEASE.jar!/org/springframework/data/redis/serializer/JdkSerializationRedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/RoleDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4216">
+          <caret line="248" column="20" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/filter/URLPathMatchingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/RedPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/UserRedPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/extdao/UserRedPacketDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TRedPacketMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TUserRedPacketMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RedPacket.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserRedPacket.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/extdao/RedPacketDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="74" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/web/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/redisTest/redisSerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="86" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.3.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18309">
+          <caret line="1077" column="8" selection-start-line="1077" selection-start-column="8" selection-end-line="1077" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/test/redisTest/redisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="86" column="36" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readMe.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="82" column="56" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-jms.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>myo2o:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (myo2o)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|myo2o</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

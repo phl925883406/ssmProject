@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <!-- 数据库驱动位置 -->
+    <!--<classPathEntry location="D:/work_cargopm/maven_repo/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar" />-->
+    <!--寝室-->
+    <!--<classPathEntry location="C:\Users\admin\Desktop\install/mysql-connector-java-5.1.34.jar" />-->
+    <!--dawei-->
+    <classPathEntry location="C:\Users\admin\Desktop\install\mysql-connector-java-5.1.34.jar" />
+    <context id="BaseDataTables" targetRuntime="MyBatis3">
+        <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+        <!-- 数据库连接参数 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/my?useUnicode=true" userId="root"
+                        password="123456" />
+        <!--把JDBC DECIMAL 和  NUMERIC 类型解析为java.math.BigDecimal. (默认false，即把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer ) -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+        <!-- entity存放目录 -->
+        <javaModelGenerator targetPackage="com.imooc.myo2o.entity" targetProject="src/main/java" />
+        <!-- mapper xml存放目录 -->
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources" />
+        <!-- mapper接口存放目录  -->
+        <javaClientGenerator targetPackage="com.imooc.myo2o.dao.gemapper" targetProject="src/main/java" type="XMLMAPPER" />
+
+        <!--对应数据库表 mysql可以加入主键自增 字段命名 忽略某字段等 -->
+        <!--<table tableName="city" >-->
+            <!--&lt;!&ndash;<generatedKey column="id" sqlStatement="Mysql" identity="true" type="post"/>&ndash;&gt;-->
+        <!--</table>-->
+<!--        <table tableName="permission" />-->
+<!--        <table tableName="role" />-->
+<!--        <table tableName="role_permission" />-->
+<!--        <table tableName="user" />-->
+<!--        <table tableName="user_role" />-->
+
+        <table tableName="t_red_packet" />
+        <table tableName="t_user_red_packet" />
+
+        <!--<table tableName="currency" />-->
+        <!--<table tableName="province" />-->
+        <!--<table tableName="seaport" />-->
+        <!--<table tableName="sequence" >
+            <generatedKey column="seq_id" sqlStatement="Mysql" identity="true" type="post"/>
+        </table>-->
+        <!--<table tableName="version" />-->
+        <!--<table tableName="warehouse" />-->
+        <!--<table tableName="warehouse_cover_rela" />-->
+        <!--<table tableName="com_parameter" >-->
+            <!--<generatedKey column="param_id" sqlStatement="Mysql" identity="true" type="post"/>-->
+        <!--</table>-->
+    </context>
+</generatorConfiguration>
